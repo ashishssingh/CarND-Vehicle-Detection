@@ -15,12 +15,12 @@ The goals / steps of this project are the following:
 * Estimate a bounding box for vehicles detected.
 
 [//]: # (Image References)
-[image1]: ./output_images/
-[image2]: ./output_images/
-[image3]: ./output_images/
-[image4]: ./output_images/
-[image5]: ./output_images/
-[image6]: ./output_images/
+[image1]: ./output_images/hog.png
+[image2]: ./output_images/boxes1.png
+[image3]: ./output_images/boxes2.png
+[image4]: ./output_images/boxes3.png
+[image5]: ./output_images/heatmap.png
+[image6]: ./output_images/finalboxed.png
 [image7]: ./output_images/
 [video1]: ./labeledcarsfull_video.mp4
 
@@ -58,6 +58,19 @@ In label_cars function there are lists that define different regions to search i
 
 ####2. Show some examples of test images to demonstrate how your pipeline is working.  What did you do to optimize the performance of your classifier?
 
+Hog:
+![alt text][image1]
+
+Different box sizes:
+![alt text][image2]
+![alt text][image3]
+![alt text][image4]
+
+Heatmap:
+![alt text][image5]
+
+Final boxed:
+![alt text][image6]
 
 ---
 
